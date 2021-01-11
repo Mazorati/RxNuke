@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 
     s.dependency 'Nuke', '~> 9.0'
     s.dependency 'RxSwift', '~> 6.0.0'
+    s.swift_version = '5.3'
 
     s.source_files  = 'Source/**/*'
 end
